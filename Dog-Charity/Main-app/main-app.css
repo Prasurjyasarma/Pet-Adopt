@@ -1,0 +1,132 @@
+body {
+  background-image: url("https://i.pinimg.com/564x/2d/74/46/2d7446c28ed89909ed1614fec2950320.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #966943;
+}
+nav {
+  z-index: 199;
+  background-color: #130d09;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 120px auto;
+  max-width: 1400px;
+}
+
+.card {
+  margin-top: 700px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 13px;
+  margin-bottom: 50px;
+  text-align: center;
+  width: calc(25% - 30px);
+  transition: 0.4s;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+}
+
+.card h2 {
+  margin-top: 10px;
+}
+
+/* details */
+.details-container {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 50%;
+  width: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  z-index: 1000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.details-container img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.overlay.active,
+.details-container.active {
+  display: block;
+}

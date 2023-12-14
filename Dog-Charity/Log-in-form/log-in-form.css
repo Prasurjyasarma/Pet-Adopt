@@ -1,0 +1,97 @@
+body {
+  background-color: #e55842;
+  background-image: url("https://cdn.dribbble.com/users/1022299/screenshots/5822725/media/5b4637aeccad8be2c5db645adf0edf65.gif");
+  background-size: cover;
+  height: 100vh;
+  overflow-y: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  color: white;
+  background-color: rgba(94, 83, 83, 0.568);
+  backdrop-filter: blur(10px);
+  border-radius: 3px;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 360px;
+  height: 350px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(94, 83, 83, 0.568);
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 50px;
+  border: none;
+  background-color: #966943;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+  margin-bottom: 30px;
+}
+input[type="button"]:hover {
+  background-color: #362619;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -25px;
+}
+.para-2 a {
+  color: #fcab69;
+}

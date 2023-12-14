@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Brown Brim",
+    "imageUrl": "https://images.pexels.com/photos/46505/swiss-shepherd-dog-dog-pet-portrait-46505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 25
+  },
+  {
+    "id": 2,
+    "name": "Blue Beanie",
+    "imageUrl": "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 18
+  },
+  {
+    "id": 3,
+    "name": "Brown Cowboy",
+    "imageUrl": "https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 35
+  },
+  {
+    "id": 4,
+    "name": "Grey Brim",
+    "imageUrl": "https://images.pexels.com/photos/220938/pexels-photo-220938.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 25
+  },
+  {
+    "id": 5,
+    "name": "Green Beanie",
+    "imageUrl": "https://images.pexels.com/photos/245035/pexels-photo-245035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 18
+  },
+  {
+    "id": 6,
+    "name": "Palm Tree Cap",
+    "imageUrl": "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 14
+  },
+  {
+    "id": 7,
+    "name": "Red Beanie",
+    "imageUrl": "https://images.pexels.com/photos/1684504/pexels-photo-1684504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 18
+  },
+  {
+    "id": 8,
+    "name": "Wolf Cap",
+    "imageUrl": "https://images.pexels.com/photos/2797318/pexels-photo-2797318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 14
+  },
+  {
+    "id": 9,
+    "name": "Blue Snapback",
+    "imageUrl": "https://images.pexels.com/photos/1078089/pexels-photo-1078089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 16
+  },
+  {
+    "id": 10,
+    "name": "Blue Snapback",
+    "imageUrl": "https://images.pexels.com/photos/3361722/pexels-photo-3361722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 16
+  }
+]
