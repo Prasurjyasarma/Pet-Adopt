@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #966943;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+}
+
+iframe {
+  display: none;
+}
+#preloader {
+  background: rgb(255, 255, 255)
+    url(https://i.pinimg.com/originals/c5/7f/5a/c57f5af94487bb62711c5adf7926feb2.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20% 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 1%;
+  z-index: 9999;
+}
+
+nav {
+  z-index: 199;
+  background-color: #130d09f5;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Container for dog details */
+#detailsContainer {
+  margin-top: 120px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Dog details image styles */
+#detailsContainer img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 20px;
+  width: 28%;
+  height: 500px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+/* Dog details title styles */
+#detailsContainer h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Dog details paragraph styles */
+#detailsContainer p {
+  width: 900px;
+  font-size: 20px;
+  margin: 30px auto;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Button styles */
+button {
+  margin-top: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #45a049;
+}
